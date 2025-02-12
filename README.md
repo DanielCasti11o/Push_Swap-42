@@ -1,6 +1,6 @@
 # Push_Swap-42
 
-# \\ REALIZADO CON LISTAS ENLAZADAS //
+# \ REALIZADO CON LISTAS ENLAZADAS /
 
 Algoritmo de ordenación de números en C. Anteriormente lo implementé usando arrays, pero enfrenté varios errores al usar `realloc`, por lo que decidí usar listas enlazadas. Estas son más recomendables debido a su flexibilidad y eficiencia como estructura de datos. Espero que les guste.
 
