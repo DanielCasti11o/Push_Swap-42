@@ -1,0 +1,15 @@
+
+Con esto agregandolo en el programa podras ver si esta ordenado bien al final del programa y tambien podras ver las longitudes de las pilas a y b al final del programa. Lo use para ir viendo como funcionaba mi programa a medida de como avanzaba en el programa.
+
+	// int	p;
+	// int a;
+	// a = ft_lstsize(stacks->b);
+	// p = ft_lstsize(stacks->a);
+	t_list *tm = stacks->a;
+	while (stacks->a)
+	{
+		printf("%d\n", stacks->a->content);
+		printf("index = %d\n", stacks->a->index);
+		stacks->a = stacks->a->next;
+	}
+	stacks->a = tm;
